@@ -1,4 +1,7 @@
+import os
+import urllib
 import urllib2
+import re
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
@@ -31,34 +34,81 @@ def getIDs(brands):
 					brands[brand] = stripped[1]
 
 '''
-WIP: don't run this yet
+Writes the link to a model page to models.txt
 '''
 def getModels(brands):
-	iters = 0
-	links = []
-	for v in brands.values():
-		# For testing, don't send too many HTTP requests
-		if iters > 10:
-			break
-		page_link = 'https://www.bicyclebluebook.com/BicycleDatabase.aspx?make='+str(v)
-		print page_link
-		page = urllib2.urlopen(page_link)
-		soup = BeautifulSoup(page, 'html.parser')
-		for link in soup.findAll('a'):
-			href = link.get('href')
-			print href
-			if not href is None:
-				if 'model' in href:
-					links.append(href)
-		iters +=1
-	print links
+	# Crawl the brand pages to get the models page of each brand
+	with open("models.txt", "w") as file:
+		for v in brands.values():
+			page_link = 'https://www.bicyclebluebook.com/BicycleDatabase.aspx?make='+str(v)
+			page = urllib2.urlopen(page_link)
+			soup = BeautifulSoup(page, 'html.parser')
+			for link in soup.findAll('a'):
+				href = link.get('href')
+				if not href is None:
+					if 'model' in href:
+						print href
+						file.write("https://www.bicyclebluebook.com"+href+"\n")
+						file.flush()
+
+'''
+Writes the link to a listing page to listings.txt
+Takes a long time to run
+'''
+def getListings():
+	# Crawl the model pages to get the individual listing pages
+	# Write all the links to a file
+	searchLinks = open("models.txt").readlines()
+	#print len(searchLinks) #39017
+	with open("listings.txt", "a") as file:
+		for i in range(1000, 5000): # Done with this iter, increment next time
+			link = searchLinks[i]
+			page = urllib2.urlopen(link)
+			soup = BeautifulSoup(page, 'html.parser')
+			for url in soup.findAll('a'):
+				href = url.get('href')
+				if not href is None:
+					if 'SearchListingDetail' in href:
+						#print href
+						file.write("https://www.bicyclebluebook.com"+href+"\n")
+						file.flush()
+
+def exportData():
+	listings = open("listings.txt").readlines()
+	#print len(listings)
+	with open("msrp.csv", "a") as file:
+		for i in range(0, 1000):
+			link = listings[i]
+			make = link.split('&')[1].split('=')[1].rstrip()
+			model = link.split('&')[2].split('=')[1].rstrip()
+			page = urllib2.urlopen(link)
+			soup = BeautifulSoup(page, 'html.parser')
+
+			# Find and store the picture
+			img = soup.find("img", {"id": "contentBody_imgBikeImage"})
+			#print img['src']
+			if img.has_attr('alt'):
+				if not os.path.exists(make+"/"+model):
+					os.makedirs(make+"/"+model)
+				img_alt = img['alt'].replace("/", "")
+				filepath = make + "/" + model + "/" + img_alt + ".jpg"
+				urllib.urlretrieve(img['src'], filepath)
+
+			# Find and write the MSRP to csv
+			table = soup.findAll('div', attrs={'class': 'col-xs-6'})
+			msrp = table[11].text.strip()
+			print make+","+model.rstrip()+","+re.sub(r'[^\w]', '', msrp)
+			file.write(make+","+model+","+re.sub(r'[^\w]', '', msrp)+"\n")
+
+
 
 def main():
-	brands = getBrands()
-	getIDs(brands)
-	print brands
-	#models = getModels(brands)
-
+	#brands = getBrands()
+	#getIDs(brands)
+	#getModels(brands)
+	
+	getListings()
+	#exportData()
 
 
 if __name__ == '__main__':

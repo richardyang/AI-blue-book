@@ -2,6 +2,8 @@ import os
 import urllib
 import urllib2
 import re
+import time
+import string
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
@@ -61,7 +63,7 @@ def getListings():
 	searchLinks = open("models.txt").readlines()
 	#print len(searchLinks) #39017
 	with open("listings.txt", "a") as file:
-		for i in range(1000, 5000): # Done with this iter, increment next time
+		for i in range(0, 39017):
 			link = searchLinks[i]
 			page = urllib2.urlopen(link)
 			soup = BeautifulSoup(page, 'html.parser')
@@ -77,7 +79,11 @@ def exportData():
 	listings = open("listings.txt").readlines()
 	#print len(listings)
 	with open("msrp.csv", "a") as file:
-		for i in range(0, 1000):
+		for i in range(0, 71347):
+			#print i
+			if i in range(20000, 80000, 20000):
+				print "10000 examples processed! Time for a break."
+				time.sleep(600)
 			link = listings[i]
 			make = link.split('&')[1].split('=')[1].rstrip()
 			model = link.split('&')[2].split('=')[1].rstrip()
@@ -87,18 +93,39 @@ def exportData():
 			# Find and store the picture
 			img = soup.find("img", {"id": "contentBody_imgBikeImage"})
 			#print img['src']
+
+			# Make the filepath
+			filepath = "data/"+make + "/" + model + "/"
+			if not os.path.exists(filepath):
+					os.makedirs(filepath)
+			'''
+			# Save the image, if one exists
 			if img.has_attr('alt'):
-				if not os.path.exists(make+"/"+model):
-					os.makedirs(make+"/"+model)
-				img_alt = img['alt'].replace("/", "")
-				filepath = make + "/" + model + "/" + img_alt + ".jpg"
-				urllib.urlretrieve(img['src'], filepath)
+				# Convert to ascii and remove all punctuation
+				ascii_img_alt = img['alt'].encode('ascii', 'ignore')
+				img_alt = str(ascii_img_alt).translate(None, string.punctuation)
+				imgpath = filepath + img_alt + ".jpg"
+				# Handle all the random quirks
+				try:
+					urllib.urlretrieve(img['src'], imgpath)
+				except Exception as e:
+					print "Error encountered"
+					pass
+			'''
+
+			# Save the Product Details text
+			with open(filepath+make+"-"+model+"-"+"details.txt", "w") as det:
+				details = soup.find('div', attrs={'class': 'row bvg-product-details'})
+				det.write(details.text.encode('ascii','ignore'))
 
 			# Find and write the MSRP to csv
+			name = soup.find('div', attrs={'class': 'value-name'}).text.encode('ascii','ignore').strip()
 			table = soup.findAll('div', attrs={'class': 'col-xs-6'})
 			msrp = table[11].text.strip()
-			print make+","+model.rstrip()+","+re.sub(r'[^\w]', '', msrp)
-			file.write(make+","+model+","+re.sub(r'[^\w]', '', msrp)+"\n")
+			file.write(name+","+make+","+model+","+re.sub(r'[^\w]', '', msrp)+"\n")
+			file.flush()
+
+
 
 
 
@@ -106,9 +133,8 @@ def main():
 	#brands = getBrands()
 	#getIDs(brands)
 	#getModels(brands)
-	
-	getListings()
-	#exportData()
+	#getListings()
+	exportData()
 
 
 if __name__ == '__main__':

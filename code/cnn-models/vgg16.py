@@ -15,7 +15,9 @@ model = VGG16(weights='imagenet', include_top=False)
 
 
 with open("bikes_filtered.csv", "r") as file:
+	i = -1
 	for data_point in file:
+		i += 1
 		index, name, msrp = data_point.split(",")
 		img_path = data_path+index+'.jpg'
 		img = image.load_img(img_path, target_size=(224, 224))
@@ -28,5 +30,7 @@ with open("bikes_filtered.csv", "r") as file:
 		# Reshape features into 2D tensor
 		# https://datascience.stackexchange.com/questions/16444/feature-extraction-for-a-pretrained-model-in-keras
 		reshaped_features = features.reshape(1, 512*7*7)
-		filename = output_path+index+".txt"
-		np.savetxt(filename, reshaped_features)
+		if i % 100 == 0:
+			print(i)
+		# filename = output_path+index+".txt"
+		# np.savetxt(filename, reshaped_features)

@@ -1,0 +1,637 @@
+<?xml version="1.0" ?>
+<dataset>
+   <images>
+      <image file="n02834778_10052.JPEG">
+         <box height="221" left="0" top="153" width="374"/>
+         <box height="261" left="100" top="112" width="314"/>
+      </image>
+      <image file="n02834778_10155.JPEG">
+         <box height="347" left="100" top="27" width="288"/>
+      </image>
+      <image file="n02834778_10158.JPEG">
+         <box height="166" left="130" top="180" width="284"/>
+      </image>
+      <image file="n02834778_10164.JPEG">
+         <box height="136" left="167" top="212" width="201"/>
+      </image>
+      <image file="n02834778_10227.JPEG">
+         <box height="217" left="174" top="89" width="293"/>
+      </image>
+      <image file="n02834778_10231.JPEG">
+         <box height="236" left="69" top="49" width="323"/>
+      </image>
+      <image file="n02834778_10246.JPEG">
+         <box height="182" left="132" top="152" width="362"/>
+      </image>
+      <image file="n02834778_10294.JPEG">
+         <box height="364" left="71" top="2" width="357"/>
+      </image>
+      <image file="n02834778_10391.JPEG">
+         <box height="353" left="24" top="25" width="420"/>
+      </image>
+      <image file="n02834778_10394.JPEG">
+         <box height="326" left="31" top="0" width="419"/>
+      </image>
+      <image file="n02834778_10412.JPEG">
+         <box height="185" left="233" top="147" width="266"/>
+      </image>
+      <image file="n02834778_10420.JPEG">
+         <box height="145" left="267" top="216" width="193"/>
+         <box height="166" left="46" top="197" width="221"/>
+      </image>
+      <image file="n02834778_10484.JPEG">
+         <box height="261" left="14" top="0" width="435"/>
+      </image>
+      <image file="n02834778_10566.JPEG">
+         <box height="196" left="12" top="178" width="307"/>
+         <box height="344" left="244" top="0" width="245"/>
+      </image>
+      <image file="n02834778_10721.JPEG">
+         <box height="165" left="126" top="165" width="155"/>
+      </image>
+      <image file="n02834778_1073.JPEG">
+         <box height="189" left="81" top="158" width="305"/>
+      </image>
+      <image file="n02834778_10848.JPEG">
+         <box height="168" left="48" top="287" width="268"/>
+      </image>
+      <image file="n02834778_10925.JPEG">
+         <box height="289" left="146" top="176" width="227"/>
+      </image>
+      <image file="n02834778_10945.JPEG">
+         <box height="124" left="155" top="224" width="146"/>
+      </image>
+      <image file="n02834778_1107.JPEG">
+         <box height="279" left="42" top="28" width="422"/>
+      </image>
+      <image file="n02834778_11097.JPEG">
+         <box height="302" left="72" top="49" width="344"/>
+      </image>
+      <image file="n02834778_1127.JPEG">
+         <box height="150" left="45" top="92" width="219"/>
+      </image>
+      <image file="n02834778_1130.JPEG">
+         <box height="487" left="13" top="8" width="429"/>
+      </image>
+      <image file="n02834778_11401.JPEG">
+         <box height="369" left="226" top="0" width="234"/>
+         <box height="373" left="3" top="1" width="391"/>
+      </image>
+      <image file="n02834778_11422.JPEG">
+         <box height="100" left="244" top="288" width="159"/>
+      </image>
+      <image file="n02834778_11540.JPEG">
+         <box height="178" left="42" top="287" width="160"/>
+      </image>
+      <image file="n02834778_11636.JPEG">
+         <box height="263" left="52" top="15" width="396"/>
+      </image>
+      <image file="n02834778_11645.JPEG">
+         <box height="281" left="43" top="12" width="426"/>
+      </image>
+      <image file="n02834778_11849.JPEG">
+         <box height="301" left="13" top="47" width="472"/>
+      </image>
+      <image file="n02834778_11865.JPEG">
+         <box height="248" left="86" top="58" width="345"/>
+      </image>
+      <image file="n02834778_1189.JPEG">
+         <box height="216" left="240" top="122" width="236"/>
+      </image>
+      <image file="n02834778_1213.JPEG">
+         <box height="283" left="20" top="42" width="453"/>
+      </image>
+      <image file="n02834778_12154.JPEG">
+         <box height="187" left="138" top="173" width="293"/>
+      </image>
+      <image file="n02834778_12174.JPEG">
+         <box height="292" left="13" top="44" width="458"/>
+      </image>
+      <image file="n02834778_12224.JPEG">
+         <box height="327" left="16" top="17" width="483"/>
+      </image>
+      <image file="n02834778_12257.JPEG">
+         <box height="66" left="9" top="33" width="90"/>
+      </image>
+      <image file="n02834778_12279.JPEG">
+         <box height="288" left="13" top="17" width="472"/>
+      </image>
+      <image file="n02834778_12430.JPEG">
+         <box height="203" left="84" top="115" width="309"/>
+      </image>
+      <image file="n02834778_12462.JPEG">
+         <box height="165" left="126" top="195" width="190"/>
+         <box height="37" left="249" top="136" width="59"/>
+      </image>
+      <image file="n02834778_12604.JPEG">
+         <box height="227" left="154" top="96" width="269"/>
+      </image>
+      <image file="n02834778_1313.JPEG">
+         <box height="368" left="37" top="68" width="401"/>
+      </image>
+      <image file="n02834778_1372.JPEG">
+         <box height="259" left="21" top="46" width="404"/>
+      </image>
+      <image file="n02834778_1380.JPEG">
+         <box height="52" left="122" top="220" width="81"/>
+      </image>
+      <image file="n02834778_1398.JPEG">
+         <box height="170" left="58" top="142" width="193"/>
+      </image>
+      <image file="n02834778_1420.JPEG">
+         <box height="431" left="45" top="51" width="286"/>
+      </image>
+      <image file="n02834778_1446.JPEG">
+         <box height="260" left="2" top="47" width="477"/>
+      </image>
+      <image file="n02834778_1607.JPEG">
+         <box height="301" left="35" top="19" width="413"/>
+      </image>
+      <image file="n02834778_1659.JPEG">
+         <box height="264" left="8" top="31" width="480"/>
+      </image>
+      <image file="n02834778_1672.JPEG">
+         <box height="61" left="194" top="193" width="90"/>
+      </image>
+      <image file="n02834778_16782.JPEG">
+         <box height="235" left="85" top="137" width="318"/>
+      </image>
+      <image file="n02834778_17153.JPEG">
+         <box height="212" left="59" top="81" width="324"/>
+      </image>
+      <image file="n02834778_1724.JPEG">
+         <box height="149" left="52" top="142" width="209"/>
+         <box height="56" left="216" top="109" width="63"/>
+         <box height="58" left="246" top="109" width="61"/>
+         <box height="87" left="357" top="106" width="119"/>
+      </image>
+      <image file="n02834778_1765.JPEG">
+         <box height="198" left="127" top="88" width="279"/>
+      </image>
+      <image file="n02834778_1785.JPEG">
+         <box height="330" left="222" top="2" width="277"/>
+      </image>
+      <image file="n02834778_1788.JPEG">
+         <box height="127" left="114" top="50" width="186"/>
+      </image>
+      <image file="n02834778_1801.JPEG">
+         <box height="198" left="153" top="116" width="285"/>
+      </image>
+      <image file="n02834778_1863.JPEG">
+         <box height="94" left="202" top="84" width="141"/>
+      </image>
+      <image file="n02834778_1895.JPEG">
+         <box height="338" left="6" top="143" width="337"/>
+      </image>
+      <image file="n02834778_1985.JPEG">
+         <box height="445" left="21" top="15" width="388"/>
+      </image>
+      <image file="n02834778_1999.JPEG">
+         <box height="266" left="39" top="39" width="431"/>
+      </image>
+      <image file="n02834778_2018.JPEG">
+         <box height="331" left="1" top="1" width="498"/>
+      </image>
+      <image file="n02834778_2073.JPEG">
+         <box height="218" left="46" top="0" width="356"/>
+         <box height="263" left="59" top="0" width="424"/>
+      </image>
+      <image file="n02834778_209.JPEG">
+         <box height="229" left="42" top="256" width="183"/>
+      </image>
+      <image file="n02834778_21323.JPEG">
+         <box height="119" left="23" top="190" width="209"/>
+         <box height="154" left="163" top="144" width="180"/>
+         <box height="139" left="269" top="146" width="192"/>
+      </image>
+      <image file="n02834778_2145.JPEG">
+         <box height="134" left="181" top="169" width="203"/>
+      </image>
+      <image file="n02834778_2263.JPEG">
+         <box height="220" left="0" top="154" width="328"/>
+      </image>
+      <image file="n02834778_2336.JPEG">
+         <box height="139" left="133" top="211" width="232"/>
+         <box height="123" left="26" top="203" width="96"/>
+      </image>
+      <image file="n02834778_2341.JPEG">
+         <box height="85" left="271" top="117" width="145"/>
+      </image>
+      <image file="n02834778_2356.JPEG">
+         <box height="283" left="29" top="35" width="455"/>
+      </image>
+      <image file="n02834778_2435.JPEG">
+         <box height="48" left="220" top="0" width="78"/>
+         <box height="53" left="331" top="4" width="93"/>
+      </image>
+      <image file="n02834778_2647.JPEG">
+         <box height="182" left="216" top="121" width="252"/>
+      </image>
+      <image file="n02834778_26599.JPEG">
+         <box height="268" left="12" top="39" width="323"/>
+      </image>
+      <image file="n02834778_2691.JPEG">
+         <box height="322" left="1" top="9" width="444"/>
+      </image>
+      <image file="n02834778_2716.JPEG">
+         <box height="281" left="133" top="54" width="364"/>
+      </image>
+      <image file="n02834778_2810.JPEG">
+         <box height="181" left="95" top="118" width="269"/>
+      </image>
+      <image file="n02834778_2873.JPEG">
+         <box height="337" left="0" top="22" width="498"/>
+      </image>
+      <image file="n02834778_2901.JPEG">
+         <box height="260" left="7" top="94" width="431"/>
+      </image>
+      <image file="n02834778_2981.JPEG">
+         <box height="145" left="389" top="44" width="110"/>
+         <box height="199" left="1" top="105" width="169"/>
+         <box height="114" left="262" top="26" width="114"/>
+      </image>
+      <image file="n02834778_2989.JPEG">
+         <box height="144" left="246" top="159" width="226"/>
+      </image>
+      <image file="n02834778_3108.JPEG">
+         <box height="99" left="266" top="235" width="130"/>
+      </image>
+      <image file="n02834778_3171.JPEG">
+         <box height="85" left="97" top="224" width="131"/>
+      </image>
+      <image file="n02834778_3225.JPEG">
+         <box height="265" left="38" top="48" width="426"/>
+      </image>
+      <image file="n02834778_3256.JPEG">
+         <box height="119" left="96" top="137" width="215"/>
+      </image>
+      <image file="n02834778_3504.JPEG">
+         <box height="475" left="12" top="7" width="386"/>
+      </image>
+      <image file="n02834778_3612.JPEG">
+         <box height="256" left="71" top="66" width="308"/>
+      </image>
+      <image file="n02834778_3646.JPEG">
+         <box height="290" left="117" top="4" width="275"/>
+      </image>
+      <image file="n02834778_3926.JPEG">
+         <box height="161" left="50" top="96" width="227"/>
+      </image>
+      <image file="n02834778_3958.JPEG">
+         <box height="61" left="50" top="380" width="92"/>
+      </image>
+      <image file="n02834778_3982.JPEG">
+         <box height="177" left="106" top="197" width="246"/>
+      </image>
+      <image file="n02834778_42241.JPEG">
+         <box height="232" left="40" top="37" width="389"/>
+      </image>
+      <image file="n02834778_4247.JPEG">
+         <box height="183" left="258" top="138" width="143"/>
+      </image>
+      <image file="n02834778_4286.JPEG">
+         <box height="185" left="205" top="144" width="235"/>
+      </image>
+      <image file="n02834778_4302.JPEG">
+         <box height="61" left="217" top="310" width="96"/>
+      </image>
+      <image file="n02834778_4304.JPEG">
+         <box height="342" left="0" top="0" width="441"/>
+      </image>
+      <image file="n02834778_4320.JPEG">
+         <box height="311" left="49" top="0" width="398"/>
+      </image>
+      <image file="n02834778_4341.JPEG">
+         <box height="112" left="113" top="102" width="76"/>
+         <box height="29" left="16" top="78" width="19"/>
+      </image>
+      <image file="n02834778_4359.JPEG">
+         <box height="112" left="119" top="132" width="240"/>
+      </image>
+      <image file="n02834778_4434.JPEG">
+         <box height="259" left="30" top="26" width="400"/>
+      </image>
+      <image file="n02834778_44364.JPEG">
+         <box height="90" left="69" top="237" width="153"/>
+      </image>
+      <image file="n02834778_4469.JPEG">
+         <box height="131" left="185" top="200" width="226"/>
+      </image>
+      <image file="n02834778_4490.JPEG">
+         <box height="328" left="276" top="2" width="223"/>
+      </image>
+      <image file="n02834778_4518.JPEG">
+         <box height="220" left="31" top="64" width="397"/>
+      </image>
+      <image file="n02834778_45239.JPEG">
+         <box height="192" left="113" top="74" width="306"/>
+      </image>
+      <image file="n02834778_46418.JPEG">
+         <box height="123" left="218" top="251" width="281"/>
+         <box height="156" left="64" top="217" width="172"/>
+      </image>
+      <image file="n02834778_466.JPEG">
+         <box height="217" left="11" top="88" width="420"/>
+      </image>
+      <image file="n02834778_4702.JPEG">
+         <box height="143" left="245" top="45" width="248"/>
+      </image>
+      <image file="n02834778_4730.JPEG">
+         <box height="296" left="26" top="62" width="409"/>
+      </image>
+      <image file="n02834778_4749.JPEG">
+         <box height="310" left="105" top="155" width="230"/>
+      </image>
+      <image file="n02834778_4944.JPEG">
+         <box height="331" left="15" top="20" width="449"/>
+      </image>
+      <image file="n02834778_5021.JPEG">
+         <box height="71" left="111" top="251" width="103"/>
+      </image>
+      <image file="n02834778_5197.JPEG">
+         <box height="200" left="161" top="172" width="305"/>
+      </image>
+      <image file="n02834778_5315.JPEG">
+         <box height="258" left="158" top="84" width="167"/>
+      </image>
+      <image file="n02834778_53747.JPEG">
+         <box height="169" left="51" top="158" width="268"/>
+      </image>
+      <image file="n02834778_5420.JPEG">
+         <box height="373" left="0" top="0" width="498"/>
+      </image>
+      <image file="n02834778_5480.JPEG">
+         <box height="103" left="52" top="302" width="211"/>
+      </image>
+      <image file="n02834778_5484.JPEG">
+         <box height="273" left="77" top="74" width="279"/>
+      </image>
+      <image file="n02834778_5508.JPEG">
+         <box height="166" left="101" top="225" width="274"/>
+      </image>
+      <image file="n02834778_5523.JPEG">
+         <box height="199" left="47" top="72" width="419"/>
+      </image>
+      <image file="n02834778_5534.JPEG">
+         <box height="293" left="45" top="137" width="211"/>
+      </image>
+      <image file="n02834778_5596.JPEG">
+         <box height="128" left="123" top="173" width="218"/>
+      </image>
+      <image file="n02834778_5626.JPEG">
+         <box height="148" left="0" top="0" width="198"/>
+      </image>
+      <image file="n02834778_57296.JPEG">
+         <box height="256" left="45" top="37" width="364"/>
+      </image>
+      <image file="n02834778_5737.JPEG">
+         <box height="186" left="220" top="111" width="217"/>
+      </image>
+      <image file="n02834778_5739.JPEG">
+         <box height="470" left="43" top="2" width="328"/>
+      </image>
+      <image file="n02834778_5741.JPEG">
+         <box height="108" left="181" top="192" width="173"/>
+         <box height="122" left="165" top="187" width="200"/>
+      </image>
+      <image file="n02834778_5747.JPEG">
+         <box height="299" left="14" top="29" width="475"/>
+      </image>
+      <image file="n02834778_5755.JPEG">
+         <box height="260" left="1" top="72" width="498"/>
+      </image>
+      <image file="n02834778_5772.JPEG">
+         <box height="249" left="4" top="113" width="334"/>
+      </image>
+      <image file="n02834778_589.JPEG">
+         <box height="164" left="92" top="206" width="193"/>
+      </image>
+      <image file="n02834778_5921.JPEG">
+         <box height="200" left="240" top="53" width="216"/>
+      </image>
+      <image file="n02834778_5957.JPEG">
+         <box height="116" left="188" top="92" width="110"/>
+      </image>
+      <image file="n02834778_5980.JPEG">
+         <box height="119" left="263" top="197" width="75"/>
+      </image>
+      <image file="n02834778_607.JPEG">
+         <box height="342" left="8" top="28" width="488"/>
+      </image>
+      <image file="n02834778_6092.JPEG">
+         <box height="132" left="78" top="291" width="175"/>
+      </image>
+      <image file="n02834778_6163.JPEG">
+         <box height="141" left="31" top="351" width="168"/>
+         <box height="219" left="0" top="217" width="158"/>
+      </image>
+      <image file="n02834778_6169.JPEG">
+         <box height="323" left="35" top="22" width="464"/>
+      </image>
+      <image file="n02834778_6186.JPEG">
+         <box height="52" left="62" top="375" width="69"/>
+      </image>
+      <image file="n02834778_6277.JPEG">
+         <box height="244" left="0" top="234" width="317"/>
+      </image>
+      <image file="n02834778_629.JPEG">
+         <box height="79" left="189" top="187" width="110"/>
+      </image>
+      <image file="n02834778_63.JPEG">
+         <box height="199" left="108" top="123" width="297"/>
+      </image>
+      <image file="n02834778_6395.JPEG">
+         <box height="310" left="219" top="0" width="232"/>
+         <box height="37" left="19" top="174" width="25"/>
+      </image>
+      <image file="n02834778_642.JPEG">
+         <box height="224" left="84" top="89" width="308"/>
+      </image>
+      <image file="n02834778_6420.JPEG">
+         <box height="253" left="29" top="83" width="445"/>
+      </image>
+      <image file="n02834778_6467.JPEG">
+         <box height="330" left="0" top="1" width="496"/>
+      </image>
+      <image file="n02834778_64755.JPEG">
+         <box height="83" left="1" top="9" width="98"/>
+      </image>
+      <image file="n02834778_6485.JPEG">
+         <box height="220" left="43" top="268" width="284"/>
+      </image>
+      <image file="n02834778_6500.JPEG">
+         <box height="286" left="38" top="15" width="461"/>
+      </image>
+      <image file="n02834778_6587.JPEG">
+         <box height="109" left="45" top="14" width="170"/>
+         <box height="141" left="299" top="19" width="200"/>
+      </image>
+      <image file="n02834778_6596.JPEG">
+         <box height="78" left="192" top="377" width="56"/>
+      </image>
+      <image file="n02834778_662.JPEG">
+         <box height="375" left="7" top="123" width="366"/>
+      </image>
+      <image file="n02834778_6712.JPEG">
+         <box height="315" left="18" top="26" width="481"/>
+      </image>
+      <image file="n02834778_6714.JPEG">
+         <box height="373" left="0" top="0" width="497"/>
+      </image>
+      <image file="n02834778_6715.JPEG">
+         <box height="178" left="123" top="181" width="284"/>
+         <box height="160" left="0" top="190" width="211"/>
+      </image>
+      <image file="n02834778_673.JPEG">
+         <box height="160" left="311" top="214" width="188"/>
+      </image>
+      <image file="n02834778_6750.JPEG">
+         <box height="207" left="227" top="89" width="221"/>
+      </image>
+      <image file="n02834778_6811.JPEG">
+         <box height="326" left="113" top="26" width="349"/>
+         <box height="339" left="0" top="16" width="499"/>
+      </image>
+      <image file="n02834778_6883.JPEG">
+         <box height="92" left="79" top="78" width="161"/>
+      </image>
+      <image file="n02834778_6942.JPEG">
+         <box height="161" left="126" top="137" width="245"/>
+      </image>
+      <image file="n02834778_6978.JPEG">
+         <box height="168" left="197" top="191" width="217"/>
+      </image>
+      <image file="n02834778_7009.JPEG">
+         <box height="136" left="149" top="217" width="116"/>
+         <box height="199" left="24" top="175" width="475"/>
+      </image>
+      <image file="n02834778_7043.JPEG">
+         <box height="94" left="186" top="147" width="69"/>
+      </image>
+      <image file="n02834778_7050.JPEG">
+         <box height="285" left="84" top="10" width="310"/>
+      </image>
+      <image file="n02834778_7078.JPEG">
+         <box height="260" left="157" top="215" width="338"/>
+      </image>
+      <image file="n02834778_7138.JPEG">
+         <box height="339" left="27" top="4" width="441"/>
+      </image>
+      <image file="n02834778_7244.JPEG">
+         <box height="293" left="57" top="49" width="409"/>
+      </image>
+      <image file="n02834778_7258.JPEG">
+         <box height="239" left="32" top="257" width="289"/>
+      </image>
+      <image file="n02834778_7271.JPEG">
+         <box height="246" left="217" top="172" width="173"/>
+      </image>
+      <image file="n02834778_728.JPEG">
+         <box height="219" left="179" top="43" width="259"/>
+         <box height="99" left="392" top="80" width="107"/>
+      </image>
+      <image file="n02834778_729.JPEG">
+         <box height="217" left="67" top="63" width="341"/>
+      </image>
+      <image file="n02834778_7327.JPEG">
+         <box height="365" left="20" top="133" width="312"/>
+      </image>
+      <image file="n02834778_736.JPEG">
+         <box height="280" left="129" top="58" width="343"/>
+      </image>
+      <image file="n02834778_7410.JPEG">
+         <box height="129" left="367" top="178" width="100"/>
+      </image>
+      <image file="n02834778_7485.JPEG">
+         <box height="180" left="140" top="146" width="311"/>
+      </image>
+      <image file="n02834778_7530.JPEG">
+         <box height="52" left="413" top="266" width="61"/>
+      </image>
+      <image file="n02834778_7627.JPEG">
+         <box height="341" left="159" top="151" width="274"/>
+         <box height="175" left="38" top="176" width="128"/>
+      </image>
+      <image file="n02834778_7669.JPEG">
+         <box height="233" left="90" top="96" width="294"/>
+      </image>
+      <image file="n02834778_7767.JPEG">
+         <box height="310" left="33" top="9" width="397"/>
+      </image>
+      <image file="n02834778_8097.JPEG">
+         <box height="110" left="145" top="158" width="170"/>
+      </image>
+      <image file="n02834778_8108.JPEG">
+         <box height="142" left="87" top="153" width="222"/>
+      </image>
+      <image file="n02834778_8125.JPEG">
+         <box height="356" left="94" top="1" width="292"/>
+      </image>
+      <image file="n02834778_8256.JPEG">
+         <box height="147" left="206" top="117" width="281"/>
+      </image>
+      <image file="n02834778_8563.JPEG">
+         <box height="357" left="1" top="0" width="473"/>
+      </image>
+      <image file="n02834778_8680.JPEG">
+         <box height="278" left="18" top="199" width="265"/>
+      </image>
+      <image file="n02834778_8791.JPEG">
+         <box height="266" left="53" top="232" width="278"/>
+      </image>
+      <image file="n02834778_8815.JPEG">
+         <box height="312" left="0" top="37" width="499"/>
+      </image>
+      <image file="n02834778_8848.JPEG">
+         <box height="143" left="14" top="36" width="248"/>
+      </image>
+      <image file="n02834778_8926.JPEG">
+         <box height="279" left="50" top="20" width="390"/>
+      </image>
+      <image file="n02834778_8932.JPEG">
+         <box height="269" left="184" top="63" width="239"/>
+      </image>
+      <image file="n02834778_8945.JPEG">
+         <box height="175" left="71" top="162" width="255"/>
+         <box height="277" left="42" top="60" width="286"/>
+      </image>
+      <image file="n02834778_8951.JPEG">
+         <box height="305" left="75" top="35" width="364"/>
+      </image>
+      <image file="n02834778_9012.JPEG">
+         <box height="139" left="171" top="172" width="211"/>
+      </image>
+      <image file="n02834778_9101.JPEG">
+         <box height="332" left="22" top="0" width="477"/>
+      </image>
+      <image file="n02834778_9303.JPEG">
+         <box height="155" left="57" top="343" width="190"/>
+         <box height="126" left="248" top="246" width="108"/>
+      </image>
+      <image file="n02834778_9324.JPEG">
+         <box height="152" left="127" top="149" width="267"/>
+         <box height="116" left="403" top="177" width="96"/>
+      </image>
+      <image file="n02834778_9585.JPEG">
+         <box height="279" left="22" top="37" width="444"/>
+      </image>
+      <image file="n02834778_9616.JPEG">
+         <box height="176" left="106" top="207" width="283"/>
+      </image>
+      <image file="n02834778_9626.JPEG">
+         <box height="362" left="45" top="12" width="404"/>
+      </image>
+      <image file="n02834778_98.JPEG">
+         <box height="211" left="99" top="135" width="285"/>
+      </image>
+      <image file="n02834778_9849.JPEG">
+         <box height="183" left="62" top="180" width="313"/>
+      </image>
+      <image file="n02834778_9879.JPEG">
+         <box height="351" left="11" top="80" width="311"/>
+      </image>
+      <image file="n02834778_9944.JPEG">
+         <box height="373" left="0" top="125" width="352"/>
+      </image>
+   </images>
+</dataset>

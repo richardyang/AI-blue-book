@@ -82,7 +82,7 @@ def exportData():
 		for i in range(0, 71347):
 			#print i
 			if i in range(20000, 80000, 20000):
-				print "10000 examples processed! Time for a break."
+				print "20000 examples processed! Time for a break."
 				time.sleep(600)
 			link = listings[i]
 			make = link.split('&')[1].split('=')[1].rstrip()
@@ -98,7 +98,7 @@ def exportData():
 			filepath = "data/"+make + "/" + model + "/"
 			if not os.path.exists(filepath):
 					os.makedirs(filepath)
-			'''
+			
 			# Save the image, if one exists
 			if img.has_attr('alt'):
 				# Convert to ascii and remove all punctuation
@@ -111,7 +111,7 @@ def exportData():
 				except Exception as e:
 					print "Error encountered"
 					pass
-			'''
+			
 
 			# Save the Product Details text
 			with open(filepath+make+"-"+model+"-"+"details.txt", "w") as det:

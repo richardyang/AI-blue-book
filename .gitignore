@@ -105,3 +105,4 @@ ENV/
 # Datasets
 datasets/
 code/Untitled.ipynb
+code/bikes-cnn-best.hdf5

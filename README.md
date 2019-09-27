@@ -2,9 +2,9 @@
 
 Authors: Richard Yang, Steven Chen, Edward Chou
 
---------------------------
-
 Read our paper here: https://arxiv.org/abs/1803.11227
+
+--------------------------
 
 **Project structure:**
 

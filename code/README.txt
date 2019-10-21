@@ -1,5 +1,5 @@
-ThePriceIsRight: Predicting Prices with Product Images README
-Authors: Edward Chou, Richard Yang, Steven Chen
+AI Blue Book README
+Authors: Richard Yang, Steven Chen, Edward Chou
 
 ============Dependencies============:
 Python 3.5
